@@ -2,7 +2,9 @@
 
 <template>
   <div>
-    <h1>Page: admin/index</h1>
+    <h1>
+      Page: front/index
+    </h1>
     <div>
       當前路由的路徑為：{{ $route.fullPath }}
     </div>

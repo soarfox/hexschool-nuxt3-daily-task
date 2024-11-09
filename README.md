@@ -2,6 +2,13 @@
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## Git提交規範
+
+1. refactor
+2. fix
+3. feature
+4. chore
+
 ## Setup
 
 Make sure to install dependencies:

@@ -1,14 +1,8 @@
-<script setup lang="ts"></script>
-
 <template>
   <div>
-    <h1>
-      Page: index
-    </h1>
-    <div>
-      當前路由的路徑為：{{ $route.fullPath }}
-    </div>
+    <h1> Page: page/index</h1>
+    <NuxtLink to="/front">前台首頁</NuxtLink>
+    <span> |  </span>
+    <NuxtLink to="/admin">後台首頁</NuxtLink>
   </div>
 </template>
-
-<style scoped></style>

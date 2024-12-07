@@ -1,0 +1,17 @@
+// 引入 Bootstrap5 v5.3.3; 目前使用@import在npm run dev時會有警告文字, 未來將全面改用@use, 但需等BS5官方改版後才適用
+@import "bootstrap/scss/functions";
+
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/containers";
+
+@import "bootstrap/scss/buttons";
+
+@import "bootstrap/scss/utilities/api";

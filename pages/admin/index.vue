@@ -6,6 +6,9 @@
     <div>
       當前路由的路徑為：{{ $route.fullPath }}
     </div>
+    <div>
+      <NuxtLink to="/">回首頁</NuxtLink>
+    </div>
   </div>
 </template>
 
